@@ -2,10 +2,11 @@
 
 ##PROJECT TITLE
 
-OVERVIEW OF DATA ANALYSIS CLASS
+LITA Capstone Project
 
 ###PROJECT OVERVIEW
 
-This is the documentation of all the learnings in my data analysis class with Ladies In Tech Africa (LITA) from excel functions down to power Bi which i have been able to put into writing during the course of the program.
+Utilizing Excel, SQL, and Power BI, this data analysis project integrates sales and customer data to uncover key insights, including sales trends, top-performing products, customer segments, and lifetime value, enabling informed business decisions through interactive visualizations and actionable recommendations.
 
 ###DATA SOURCES
+
