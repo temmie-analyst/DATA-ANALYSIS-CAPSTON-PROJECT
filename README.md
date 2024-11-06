@@ -44,7 +44,7 @@ To ensure the quality and consistency of the analysis, the Sales Data and Custom
 
 The prepared datasets provided a reliable foundation for analysis, enabling meaningful insights into sales trends and customer behavior within the subscription model.
 
-### ANALYSIS APPROACH
+### DATA ANALYSIS APPROACH
 
 The analysis approach for this project involved a systematic examination of both the Sales Data and Customer Data using Excel, SQL and Power BI to derive insights and drive decision-making.
 
@@ -161,6 +161,20 @@ By integrating these methods, the analysis yielded actionable insights into sale
 ![BI SALES OVERVIEW](https://github.com/user-attachments/assets/bdd5474f-0ab7-48a9-bb8e-67187e377796)
 
 ![BI SUB](https://github.com/user-attachments/assets/75b05df0-e23b-4b29-908a-902d95546b85)
+
+
+### RECOMMENDATIONS
+```
+The overall for the sales data is that 'Hat' are the highest volume product, indicating strong customer demand and popularity. The frequent purchases suggest that hats appeal to a broad consumer base, potentially benefiting from seasonal trends or being priced at an accessible level for a larger audience. Therefore since hats are selling in high quantities, it is important to ensure that inventory levels remain consistently stocked to meet demand, especially during peak sales periods.
+
+Given the popularity of hats, targeted promotions or bundling with other products such as 'Jacket can increase overall sales. For example, discounts on 'Hat' when purchased with 'Jacket or 'Socks' which turns to be low in sales might increase cross-product sales.
+
+- While Hat have the highest sales volume, Shoes generate the highest revenue. This likely reflects a higher price point for shoes compared to hats, as well as the potential for shoes to appeal to a more specific customer segment.
+
+- Since shoes bring in the highest revenue, there may be an opportunity to introduce higher-end or premium models that could further increase revenue without dramatically affecting sales volume. Ensure that the supply chain for shoes is optimized to meet demand without overstocking. This can be achieved by analyzing historical sales data to forecast trends and adjust production or orders accordingly.
+
+
+
 
 
 
