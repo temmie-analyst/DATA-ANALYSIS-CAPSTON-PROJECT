@@ -1,8 +1,6 @@
-# PROJECT
-
 ## PROJECT TITLE
 
-LITA Capstone Project
+LITA Capstone Project (SalesData)
 
 ### PROJECT OVERVIEW
 
@@ -60,7 +58,7 @@ The analysis approach for this project involved a systematic examination of both
 
 ![salesdata pivot](https://github.com/user-attachments/assets/79d9278a-aad1-422b-a12c-b357e6382302)
 
-- Excel functions were used to efficiently calculate key metrics such as total revenue by region and average sales per product for to analyse the sales performance. SUMIF and AVERAGEIF  function were used. This allows a quick calculated total revenue generated in each region by summing up sales values based on region-specific criteria and helped in calculating the average sales by product, giving a better understanding of product-level performance where the Formula Example =SUMIF(RegionRange, "RegionName", RevenueRange) where RegionRange refers to the list of regions and RevenueRange to the sales revenue values and =AVERAGEIF(ProductRange, "ProductName", RevenueRange).  where ProductRange consists of product names and Rev
+- Excel functions were used to efficiently calculate key metrics such as total revenue by region and average sales per product to analyse the sales performance. SUMIF and AVERAGEIF  function were used. This allows a quick calculated total revenue generated in each region by summing up sales values based on region-specific criteria and helped in calculating the average sales by product, giving a better understanding of product-level performance where the Formula Example =SUMIF(RegionRange, "RegionName", RevenueRange) where RegionRange refers to the list of regions and RevenueRange to the sales revenue values and =AVERAGEIF(ProductRange, "ProductName", RevenueRange).  where ProductRange consists of product names and RevenueRange consists of the range within which we have the revenue.
 
 ![salesdata table 1](https://github.com/user-attachments/assets/f28935b6-e4cc-4450-b111-dc10c4f59127)
 
@@ -68,7 +66,7 @@ The analysis approach for this project involved a systematic examination of both
 
 2. #### SQL Analysis:
 
-SQL was used to extract and manipulate data from the Sales Data. Key queries were written to perform aggregations and calculations, such as:
+SQL was used to extract and manipulate data, database was created and data was loaded to create table. Key queries were written to perform aggregations and calculations, such as:
 
 - Find the top 5 customers by total purchase amount
 - Percentage of total sales contributed by each region
@@ -83,9 +81,9 @@ SQL was used to extract and manipulate data from the Sales Data. Key queries wer
 
 The final stage of analysis involved creating interactive dashboards in Power BI, which enhanced the presentation of insights through advanced visualization techniques. This included:
 
-Dynamic Dashboards: Developing comprehensive dashboards that presented key metrics such as total revenue, average subscription length, and customer distribution across regions, allowing stakeholders to gain a quick overview of business performance.
+Dynamic Dashboards: Developing comprehensive dashboards that presented key metrics such as total revenue, sum quantity of each product, Revenue by month, Revenue by region etc, allowing stakeholders to gain a quick overview of business performance.
 
-Interactive Reports: Creating interactive reports where users could drill down into specific metrics, filter data by subscription type or region, and explore trends in sales overview, top-performing products, regional breakdowns key customer segments, cancellations, and subscription trends and This interactivity enabled a more nuanced understanding of the data.
+Interactive Reports: Creating interactive reports where users could drill down into specific metrics, filter data by product or region, and explore trends in sales overview, top-performing products, regional breakdowns key customer segments, total revenue etc. This interactivity enabled a more nuanced understanding of the data.
  
 Visualizations: Utilizing a variety of visualization tools such as bar charts, line graphs, and pie charts to represent data clearly and effectively.
 
@@ -96,18 +94,24 @@ By integrating these methods, the analysis yielded actionable insights into sale
 
 ![BI SALES OVERVIEW](https://github.com/user-attachments/assets/bdd5474f-0ab7-48a9-bb8e-67187e377796)
 
-![BI SUB](https://github.com/user-attachments/assets/75b05df0-e23b-4b29-908a-902d95546b85)
-
 
 ### RECOMMENDATIONS
 
-The overall for the sales data is that 'Hat' are the highest volume product, indicating strong customer demand and popularity. The frequent purchases suggest that hats appeal to a broad consumer base, potentially benefiting from seasonal trends or being priced at an accessible level for a larger audience. Therefore since hats are selling in high quantities, it is important to ensure that inventory levels remain consistently stocked to meet demand, especially during peak sales periods.
+- The overall for the sales data is that 'Hat' are the highest volume product, indicating strong customer demand and popularity. The frequent purchases suggest that hats appeal to a broad consumer base, potentially benefiting from seasonal trends or being priced at an accessible level for a larger audience. Therefore since hats are selling in high quantities, it is important to ensure that inventory levels remain consistently stocked to meet demand, especially during peak sales periods.
 
-Given the popularity of hats, targeted promotions or bundling with other products such as 'Jacket can increase overall sales. For example, discounts on 'Hat' when purchased with 'Jacket or 'Socks' which turns to be low in sales might increase cross-product sales.
+- Given the popularity of hats, targeted promotions or bundling with other products such as 'Jacket can increase overall sales. For example, discounts on 'Hat' when purchased with 'Jacket or 'Socks' which turns to be low in sales might increase cross-product sales.
 
 - While Hat have the highest sales volume, Shoes generate the highest revenue. This likely reflects a higher price point for shoes compared to hats, as well as the potential for shoes to appeal to a more specific customer segment.
 
-- Since shoes bring in the highest revenue, there may be an opportunity to introduce higher-end or premium models that could further increase revenue without dramatically affecting sales volume. Ensure that the supply chain for shoes is optimized to meet demand without overstocking. This can be achieved by analyzing historical sales data to forecast trends and adjust production or orders accordingly.
+- Since shoes brings the highest revenue, there may be an opportunity to introduce higher-end or premium models that could further increase revenue without dramatically affecting sales volume. Ensure that the supply chain for shoes is optimized to meet demand without overstocking. This can be achieved by analyzing historical sales data to forecast trends and adjust production or orders accordingly.
+
+### CONCLUSIONS
+
+This project demonstrated the power of data analysis in identifying trends, optimizing sales strategies, and driving business performance. By employing tools such as Excel for data cleaning, SQL for database querying, and Power BI for visualization, we were able to gain a comprehensive understanding of the sales data. The insights derived from this analysis will help the company make data-driven decisions, improve sales efficiency, and enhance customer satisfaction.
+
+Future work could involve integrating external data sources, such as competitor pricing, market conditions, or social media sentiment, to further refine the analysis and predictions. Additionally, automation of data reporting and forecasting would enhance decision-making speed and accuracy.
+
+
 
 
 
